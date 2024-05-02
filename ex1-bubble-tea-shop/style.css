@@ -1,13 +1,10 @@
 body {
-  margin: 0px;
   font-family: "Kanit";
   height: 100vh;
   font-size: 2rem;
+  margin: 0px;
 }
 
-img {
-  z-index: 0;
-}
 .container {
   height: 100%;
   background-color: black;
@@ -15,18 +12,24 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 0;
+}
+
+.picAndShadow {
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 .card {
-  color: aliceblue;
+  color: white;
   height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border: 10px solid white;
-  position: relative;
-  z-index: 10;
+  position: absolute;
 }
 
 .title {
@@ -34,11 +37,6 @@ img {
   position: absolute;
   z-index: 1;
   top: 77%;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 0, 0, 0) 99%
-  );
   margin-top: 5%;
 }
 
@@ -47,6 +45,17 @@ img {
   padding: 2%;
   background-color: HSLA(180, 100%, 0%, 0.5);
   bottom: 75%;
-  left: 85%;
-  z-index: 2;
+  left: 83%;
+}
+
+.shadow {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 99%
+  );
 }
