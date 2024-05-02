@@ -1,5 +1,63 @@
+* {
+  border: 0;
+  padding: 0;
+}
 body {
   font-family: "Kanit";
 }
 
-/* Start coding here */
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 170, 170);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.picturechakaimook {
+  padding: 10%;
+  width: 40%;
+  height: 40%;
+  display: flex;
+  border: 5px;
+  position: relative;
+}
+
+.wording {
+  color: white;
+  font-size: 20px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 66%;
+  left: 31%;
+  z-index: 2;
+}
+
+.blur-background {
+  display: flex;
+  filter: blur(1px);
+  width: 40.5%;
+  height: 41%;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 99%
+  );
+  position: absolute;
+  z-index: 1;
+}
+
+.location {
+  color: white;
+  font-size: 20px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 35%;
+  right: 29%;
+  z-index: 2;
+  text-align: center;
+  width: 10%;
+  height: 1%px;
+  background-color: rgb(137, 137, 137);
+}
