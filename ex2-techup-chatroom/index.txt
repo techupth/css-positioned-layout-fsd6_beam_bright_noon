@@ -1,0 +1,12 @@
+
+          <div>
+            <div class="chat-human2">
+              <div class="chat-human-2">
+              <h2 class="chat-2-text">😍</h2>
+            </div>
+            <div class="chat-human-2">
+              <h2 class="chat-2-text">😙</h2>
+            </div>
+        </div>
+          
+      </div>

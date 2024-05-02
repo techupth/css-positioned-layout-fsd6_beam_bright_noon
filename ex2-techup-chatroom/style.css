@@ -1,1 +1,100 @@
-/* Start coding here */
+* {
+  margin: 0;
+  padding: 0;
+}
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+
+.background-head {
+  display: flex;
+  background-color: grey;
+  color: white;
+  width: 100%;
+  height: 10%;
+  font-size: 110%;
+  justify-content: left;
+  align-items: center;
+  padding: 0% 0% 0% 0.5%;
+}
+
+.chat-human {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 23vh;
+  flex-direction: column;
+  align-items: end;
+  background-color: rgba(137, 43, 226, 0);
+  position: relative;
+  z-index: 1;
+}
+
+.chat-human-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  width: 400px;
+  height: 50px;
+  margin: 0.5% 2% 0.5% 0;
+  border-radius: 30px;
+  background-color: greenyellow;
+}
+
+.chat-1-text {
+  margin: 10%;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 30;
+}
+
+#chat-human-1 {
+  background-color: rgb(198, 198, 198);
+}
+
+.button-x {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  position: absolute;
+  right: 40px;
+  top: 70px;
+  z-index: 2;
+  color: white;
+  background-color: rgb(125, 125, 125);
+}
+
+.chat-human2 {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 23vh;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: rgba(137, 43, 226, 0);
+  position: relative;
+  left: 20px;
+  z-index: 1;
+}
+
+.chat-human-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  width: 400px;
+  height: 50px;
+  margin: 0.5% 2% 0.5% 0;
+  border-radius: 30px;
+  background-color: rgb(149, 149, 149);
+}
+
+.chat-2-text {
+  margin: 10%;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 30;
+}
